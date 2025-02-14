@@ -6,7 +6,8 @@ Senior Data Scientist specializing in Generative AI and Large Language Models, w
 ## 🛠️ Core Skills
 - **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
 - **Deployment & Architecture**: Containerization (Docker), Kubernetes (AWS EKS), CI/CD (GitHub Actions), End-to-End Integration
-- **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery. Collaborated closely with clients to understand requirements and align technical solutions
+- **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery.
+- **Client Engagement**: Collaborated closely with clients to understand requirements and align technical solutions.
 
 ## 🏗️ Featured Projects
 ### [Production-Ready RAG Pipeline](https://github.com/KaranSharma18/Production-ready-RAG-pipeline-with-Deployment)
