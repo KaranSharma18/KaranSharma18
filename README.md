@@ -17,7 +17,7 @@ Senior Data Scientist specializing in Generative AI and Large Language Models, w
 - **Focus**: Exploration of diverse RAG methodologies—semantic chunking, multi-query fusion, hybrid search, self-reflection, etc.
 
 ## 🚀 Professional Impact
-- Successfully delivered 2 end-to-end AI products in production
+- Successfully delivered 2 end-to-end AI products currently used by multiple clients and their teams in the US.
 - Integrated Generative AI solutions in medical products
 - Designed and implemented scalable AI Solutions
 
