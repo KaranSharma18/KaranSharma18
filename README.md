@@ -4,20 +4,16 @@
 Senior Data Scientist specializing in Generative AI and Large Language Models, with 3.5+ years of experience building and deploying production-ready AI solutions in the medical domain. I'm passionate about creating scalable AI systems that solve real-world problems.
 
 ## 🛠️ Core Technical Skills
-- **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines, Custom LLM fine-tuning
-- **AI Infrastructure**: Scalable deployment architectures, Production optimization, MLOps
-- **Leadership**: Experience leading small technical teams (2-3 people)
+- **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
+- **Deployment & Architecture**: Containerization (Docker), Kubernetes (AWS EKS), CI/CD (GitHub Actions), End-to-End Integration
+- **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery
 
 ## 🏗️ Featured Projects
 ### [Production-Ready RAG Pipeline](https://github.com/KaranSharma18/Production-ready-RAG-pipeline-with-Deployment)
-- Engineered a production-grade Retrieval Augmented Generation system
-- Implemented advanced context retrieval techniques
-- Optimized for scalability and real-world deployment
+- **Focus**: End-to-end RAG architecture designed for large-scale, multi-user concurrency. Demonstrates how to integrate a basic RAG approach with advanced deployment strategies (Kubernetes, CI/CD, etc.).
 
 ### [Advanced RAG Techniques](https://github.com/KaranSharma18/Depth_and_Breadth_of_rag_techniques)
-- Explored cutting-edge RAG methodologies
-- Demonstrated depth and breadth in information retrieval
-- Enhanced response accuracy and relevance
+- **Focus**: Exploration of diverse RAG methodologies—semantic chunking, multi-query fusion, hybrid search, self-reflection, etc. Ideal for those who want to learn the intricacies of advanced retrieval-augmented generation.
 
 ## 🚀 Professional Impact
 - Successfully delivered 2 end-to-end AI products in production
