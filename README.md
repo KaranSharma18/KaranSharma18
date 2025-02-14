@@ -3,7 +3,7 @@
 ## 🤖 About Me
 Senior Data Scientist specializing in Generative AI and Large Language Models, with ~4 years of experience building and deploying production-ready AI solutions in the medical domain. I'm passionate about creating scalable AI systems that solve real-world problems.
 
-## 🛠️ Core Technical Skills
+## 🛠️ Core Skills
 - **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
 - **Deployment & Architecture**: Containerization (Docker), Kubernetes (AWS EKS), CI/CD (GitHub Actions), End-to-End Integration
 - **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery
