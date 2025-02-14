@@ -18,7 +18,7 @@ Senior Data Scientist specializing in Generative AI and Large Language Models, w
 ## 🚀 Professional Impact
 - Successfully delivered 2 end-to-end AI products in production
 - Integrated Generative AI solutions in medical products
-- Designed and implemented scalable LLM architectures
+- Designed and implemented scalable AI Solutions
 
 ## 📚 Current Learning Focus
 - Reasoning Models
