@@ -1,7 +1,7 @@
 # Hi there! 👋 I'm Karan Sharma
 
 ## 🤖 About Me
-I'm a Senior Data Scientist with ~4 years of experience designing, and deploying AI products in healthcare and pharma, specializing in NLP, Gen-AI, and large language models. I've built two major AI products currently used by multiple clients and their teams in the US.
+Senior Data Scientist with ~4 years of experience designing, and deploying AI products in healthcare and pharma, specializing in NLP, Gen-AI, and large language models. I'm passionate about creating scalable AI systems that solve real-world problems.
 
 ## 🛠️ Core Skills
 - **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
