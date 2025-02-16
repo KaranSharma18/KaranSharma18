@@ -3,11 +3,10 @@
 ## 🤖 About Me
 Senior Data Scientist with ~4 years of experience designing, and deploying AI products in healthcare and pharma, specializing in NLP, Gen-AI, and large language models. I'm passionate about creating scalable AI systems that solve real-world problems.
 
-## 🛠️ Core Skills
-- **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
-- **Deployment & Architecture**: Containerization (Docker), Kubernetes (AWS EKS), CI/CD (GitHub Actions), End-to-End Integration
-- **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery.
-- **Client Engagement**: Collaborated closely with clients to understand requirements and align technical solutions.
+## 🚀 Professional Impact
+- Successfully delivered 2 end-to-end AI products currently used by multiple clients and their teams in the US.
+- Integrated Generative AI solutions in medical products
+- Designed and implemented scalable AI Solutions
 
 ## 🏗️ Featured Projects
 ### [Production-Ready RAG Pipeline](https://github.com/KaranSharma18/Production-ready-RAG-pipeline-with-Deployment)
@@ -16,10 +15,11 @@ Senior Data Scientist with ~4 years of experience designing, and deploying AI pr
 ### [Advanced RAG Techniques](https://github.com/KaranSharma18/Depth_and_Breadth_of_rag_techniques)
 - **Focus**: Exploration of diverse RAG methodologies—semantic chunking, multi-query fusion, hybrid search, self-reflection, etc.
 
-## 🚀 Professional Impact
-- Successfully delivered 2 end-to-end AI products currently used by multiple clients and their teams in the US.
-- Integrated Generative AI solutions in medical products
-- Designed and implemented scalable AI Solutions
+## 🛠️ Core Skills
+- **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
+- **Deployment & Architecture**: Containerization (Docker), Kubernetes (AWS EKS), CI/CD (GitHub Actions), End-to-End Integration
+- **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery.
+- **Client Engagement**: Collaborated closely with clients to understand requirements and align technical solutions.
 
 ## 📚 Current Learning Focus
 - Reasoning Models
