@@ -12,6 +12,9 @@ Senior AI Engineer with 4 years building production ML/AI systems for Fortune 50
 ### [Production-Ready RAG Pipeline](https://github.com/KaranSharma18/Production-ready-RAG-pipeline-with-Deployment)
 - **Focus**: End-to-end RAG architecture designed for large-scale, multi-user concurrency. Demonstrates how to integrate a basic RAG approach with advanced deployment strategies (Kubernetes, CI/CD, etc.).
 
+### [RAG Agent - Document Q&A System](https://github.com/KaranSharma18/rag-agent)
+- **Focus**: Lightweight, local-first RAG agent for secure document QA — PDF ingestion, LangChain processing, Ollama LLM integration, Chroma vector store, and Docker/CI-friendly deployment for scalable multi-user workflows.
+
 ### [Advanced RAG Techniques](https://github.com/KaranSharma18/Depth_and_Breadth_of_rag_techniques)
 - **Focus**: Exploration of diverse RAG methodologies—semantic chunking, multi-query fusion, hybrid search, self-reflection, etc.
 
