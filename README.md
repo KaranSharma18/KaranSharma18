@@ -1,7 +1,7 @@
 # Hi there! 👋 I'm Karan Sharma
 
 ## 🤖 About Me
-Senior AI Engineer with 4 years building production ML/AI systems for Fortune 500 pharmaceutical clients (J&J, Roche). Specialized in healthcare NLP, RAG architectures, and cost-optimized LLM deployments. Led AI development in lean teams (4-5 engineers), shipping 2 commercial AI products adopted by 7+ U.S. pharma companies. Successfully optimized AI systems to reduce LLM costs and latency by while maintaining baseline accuracy through hybrid architectures.
+Senior AI Engineer with 4 years building production ML/AI systems for Fortune 500 pharmaceutical clients. Specialized in healthcare NLP, RAG architectures, and cost-optimized LLM deployments. Led AI development in lean teams (4-5 engineers), shipping 2 commercial AI products adopted by 7+ U.S. pharma companies. Successfully optimized AI systems to reduce LLM costs and latency by while maintaining baseline accuracy through hybrid architectures.
 
 ## 🚀 Professional Impact
 - Successfully delivered 2 end-to-end AI products currently used by multiple clients and their teams in the US.
