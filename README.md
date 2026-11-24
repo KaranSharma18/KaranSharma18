@@ -1,40 +1,59 @@
-# Hi there! 👋 I'm Karan Sharma
+# Hi, I'm Karan Sharma 👋
 
-## 🤖 About Me
-Senior AI Engineer with 4 years building production ML/AI systems for Fortune 500 pharmaceutical clients. Specialized in healthcare NLP, RAG architectures, and cost-optimized LLM deployments. Led AI development in lean teams (4-5 engineers), shipping 2 commercial AI products adopted by 7+ U.S. pharma companies. Successfully optimized AI systems to reduce LLM costs and latency by while maintaining baseline accuracy through hybrid architectures.
+I'm an Agentic AI Engineer with 4+ years of experience shipping agentic AI systems at **Zensar Technologies** and **ZS Associates**, including enterprise IT triage agents and LLM platforms used by U.S. clients.
 
-## 🚀 Professional Impact
-- Successfully delivered 2 end-to-end AI products currently used by multiple clients and their teams in the US.
-- Integrated Generative AI solutions in medical products
-- Designed and implemented scalable AI Solutions
+- 🎓 Doing an **MS in Artificial Intelligence at Texas A&M**
+- 🔭 Working on **eval-driven agent engineering**: measuring long-horizon agent reliability
+- 💼 Open to **Summer 2027 AI Engineering internships**
+
+---
 
 ## 🏗️ Featured Projects
-### [Production-Ready RAG Pipeline](https://github.com/KaranSharma18/Production-ready-RAG-pipeline-with-Deployment)
-- **Focus**: End-to-end RAG architecture designed for large-scale, multi-user concurrency. Demonstrates how to integrate a basic RAG approach with advanced deployment strategies (Kubernetes, CI/CD, etc.).
 
-### [RAG Agent - Document Q&A System](https://github.com/KaranSharma18/rag-agent)
-- **Focus**: Lightweight, local-first RAG agent for secure document QA — PDF ingestion, LangChain processing, Ollama LLM integration, Chroma vector store, and Docker/CI-friendly deployment for scalable multi-user workflows.
+### [Multi-Agent Research & Action Platform (MARA)](https://github.com/KaranSharma18/multi-agent-research-platform)
+`Python` `TypeScript` `LangGraph` `MCP` `A2A` `Claude Agent SDK` `Qdrant` `Postgres` `Braintrust`
 
-### [Advanced RAG Techniques](https://github.com/KaranSharma18/Depth_and_Breadth_of_rag_techniques)
-- **Focus**: Exploration of diverse RAG methodologies—semantic chunking, multi-query fusion, hybrid search, self-reflection, etc.
+A supervisor–worker agent network that answers multi-hop operational questions across documents, a SQL warehouse, live APIs and a remote research agent. It can also take actions, but only after a human approves them.
 
-## 🛠️ Core Skills
-- **Generative AI & LLMs**: Production-grade LLM applications, Advanced RAG pipelines
-- **Deployment & Architecture**: Containerization (Docker), Kubernetes (AWS EKS), CI/CD (GitHub Actions), End-to-End Integration
-- **Team Management**: Experience overseeing small teams, mentoring junior members, and ensuring smooth project delivery.
-- **Client Engagement**: Collaborated closely with clients to understand requirements and align technical solutions.
+- A LangGraph supervisor plans the work and fans tasks out in parallel waves. Workers load tools on demand from **4 MCP servers**, using a hash-pinned tool catalog.
+- **Zero-trust tool access:** each task gets its own token, exchanged under RFC 8693 for a single audience with least-privilege scopes. Document ACLs and row-level security are enforced at the servers.
+- **Human approval for writes:** an approval signs a one-time token bound to the exact action arguments. A separate executor holds the only write credentials.
+- An **A2A** handoff goes to a remote web-research agent with a signed Agent Card.
+- **120 adversarial eval cases** cover injection, PII exfiltration, scope escalation, tool faults and budget stress, with trace replay. Results: **76% multi-step task completion at ~$0.03/run**.
 
-## 📚 Current Learning Focus
-- Reasoning Models
-- Model Distillation Techniques
+### [Fixloop: Sandboxed Autonomous Coding & SQL Verification Agent](https://github.com/KaranSharma18/sandboxed-coding-sql-agent)
+`Python` `FastAPI` `Docker / gVisor` `Redis Streams` `Postgres` `Pydantic` `Gemini`
 
-## 🔭 Future Interest Areas
-- AI Agents
+A coding agent that only returns what it has proven. It takes a failing test or a SQL question, then plans, patches, runs the code in a locked-down sandbox, reads the trace and repairs, within a strict retry budget.
 
-## 📊 GitHub Metrics
+- A **plan → execute → verify** loop runs in an isolated sandbox with no network, a read-only root and a non-root user, on gVisor in production.
+- **Verification is done by execution, not by the model.** Target tests must pass with no regressions, protected tests must be untouched, and hidden tests must pass on a shuffled rerun. For SQL, the query has to match an oracle on the real data *and* on mutated copies of it.
+- **Production plumbing:** Redis Streams work queues, Postgres as the source of truth with a transactional outbox, and fencing tokens. Budgets are enforced atomically in Redis Lua.
+- Strict JSON-schema outputs, token/cost caps and layered caching remove **~20% of redundant model calls** on recurring workloads.
+- It integrates with a GitHub App: it responds to a `/fixloop fix` PR comment by opening a **draft** PR.
+
+### Earlier work: RAG
+- [Production-Ready RAG Pipeline](https://github.com/KaranSharma18/Production-ready-RAG-pipeline-with-Deployment): multi-user RAG with Kubernetes and CI/CD deployment.
+- [RAG Agent: Document Q&A](https://github.com/KaranSharma18/rag-agent): a local-first RAG agent using Ollama, Chroma and Docker.
+- [Advanced RAG Techniques](https://github.com/KaranSharma18/Depth_and_Breadth_of_rag_techniques): semantic chunking, multi-query fusion, hybrid search and self-reflection.
+
+---
+
+## 🛠️ Stack
+
+| | |
+|---|---|
+| **Agents & Protocols** | LangGraph, OpenAI Agents SDK, Claude Agent SDK, Google ADK, MCP, A2A, Temporal |
+| **Retrieval & Models** | Hybrid RAG (dense + BM25 + reranking), Qdrant, FAISS, Pinecone, OpenAI, Claude, Gemini, Llama, vLLM, LoRA/QLoRA |
+| **Evals & Safety** | Trajectory & tool-use evals, LLM-as-a-judge, LangSmith, Langfuse, Braintrust, OpenTelemetry, prompt-injection/PII guardrails, red-teaming |
+| **Backend & Infra** | Python (asyncio), TypeScript, FastAPI, SSE, PostgreSQL, Redis, Docker, Kubernetes (GKE, EKS), AWS, GCP, GitHub Actions |
+
+---
+
+## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KaranSharma18&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KaranSharma18&layout=compact&theme=radical)
 
-## 🤝 Let's Connect!
+## 🤝 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karansharma18/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karansharma.professional@gmail.com)
