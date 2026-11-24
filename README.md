@@ -1,6 +1,6 @@
 # Hi, I'm Karan Sharma 👋
 
-I'm an Agentic AI Engineer with 4+ years of experience shipping agentic AI systems at **Zensar Technologies** and **ZS Associates**, including enterprise IT triage agents and LLM platforms used by U.S. clients.
+I'm an Agentic AI Engineer with 4+ years of experience shipping agentic AI systems including enterprise IT triage agents and LLM platforms used by U.S. clients.
 
 - 🎓 Doing an **MS in Artificial Intelligence at Texas A&M**
 - 🔭 Working on **eval-driven agent engineering**: measuring long-horizon agent reliability
