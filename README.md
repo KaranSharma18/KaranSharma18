@@ -4,7 +4,7 @@ I'm an Agentic AI Engineer with 4+ years of experience shipping agentic AI syste
 
 - 🎓 Doing an **MS in Artificial Intelligence at Texas A&M**
 - 🔭 Working on **eval-driven agent engineering**: measuring long-horizon agent reliability
-- 💼 Open to **Summer 2027 AI Engineering internships**
+- 💼 Open to **Summer 2027 AI Engineering/ML internships**
 
 ---
 
